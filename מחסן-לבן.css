@@ -22,12 +22,12 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 0 -92px 0 212px;
+  margin: 20px -118px 0 239px;
 }
 
 .u-section-1 .u-text-3 {
   font-family: Anton;
-  margin: 306px -72px 0 192px;
+  margin: 287px -72px 0 192px;
 }
 
 .u-section-1 .u-layout-cell-2 {
@@ -136,5 +136,30 @@
 
   .u-section-1 .u-text-1 {
     margin-left: 123px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 60px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 40px 59px 0;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 40px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
